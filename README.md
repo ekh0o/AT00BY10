@@ -2,6 +2,8 @@
 
 ## Purpose of this repository
 
+[![Coverage Status](https://coveralls.io/repos/github/ekh0o/AT00BY10/badge.svg?branch=main)](https://coveralls.io/github/ekh0o/AT00BY10?branch=main)
+
 This is a project template for students participating in Software Testing course
 at LAB University of Applied Sciences.
 
