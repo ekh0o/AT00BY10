@@ -8,7 +8,7 @@
     "test": "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
-  "author": "Joona Ekholm",
+  "author": "Joona_Ekholm",
   "license": "MIT",
   "devDependencies": {
     "chai": "^6.2.2",
