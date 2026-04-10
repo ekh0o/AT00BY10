@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "nyc mocha",
-    "coverage": "nyc report --reporter=text-lcov"
+    "coverage": "nyc report --reporter=lcov --report-dir=coverage"
   },
   "author": "Joona_Ekholm",
   "license": "MIT",
@@ -19,8 +19,10 @@
   "nyc": {
   "include": ["src/**/*.js"],
   "exclude": ["src/.internal/**"],
+  "extension": [".js"],
   "reporter": ["lcov", "text"],
   "all": true,
-  "report-dir": "coverage"
+  "sourceMap": true,
+  "instrument": true
 }
 }
