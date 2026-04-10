@@ -18,7 +18,7 @@
   },
   "nyc": {
   "include": ["src/**/*.js"],
-  "exclude": ["src/.internal/**"],
+  "exclude": ["src/.internal/**", ".internal/**"],
   "extension": [".js"],
   "reporter": ["lcov", "text"],
   "all": true,
